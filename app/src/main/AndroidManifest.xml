@@ -15,7 +15,6 @@
         <activity android:name=".ChildBoard"></activity>
         <activity android:name=".Dust" />
         <activity android:name=".FoodMenu" />
-        <activity android:name=".Calender" />
         <activity android:name=".Result" />
 
         <activity android:name=".Search" />
