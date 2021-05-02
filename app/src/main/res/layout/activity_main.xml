@@ -9,9 +9,11 @@
 
     <View
         android:id="@+id/view3"
-        android:layout_width="match_parent"
-        android:layout_height="400dp"
-        android:background="#ADC9F8"
+        android:layout_width="411dp"
+        android:layout_height="868dp"
+        android:background="#ACD8B0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -20,22 +22,27 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="112dp"
         android:text="어린이집 공기질"
-        android:textSize="36sp"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="@+id/view3"
         app:layout_constraintTop_toTopOf="@+id/view3" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
+        android:layout_marginTop="184dp"
         android:text="CHECK"
-        android:textSize="36sp"
-        app:layout_constraintEnd_toEndOf="@+id/textView"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="@+id/textView"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
 
     <Button
         android:id="@+id/button_start"
@@ -43,8 +50,10 @@
         android:layout_height="59dp"
         android:layout_marginBottom="100dp"
         android:text="시작하기"
+        android:textStyle="bold"
         android:textSize="24sp"
-        app:backgroundTint="#2196F3"
+        android:textColor="@color/black"
+        app:backgroundTint="#DEE8EF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/textView"
         app:layout_constraintHorizontal_bias="0.494"
@@ -54,9 +63,10 @@
         android:id="@+id/imageView2"
         android:layout_width="256dp"
         android:layout_height="256dp"
-        android:layout_marginBottom="45dp"
+        android:layout_marginBottom="44dp"
         app:layout_constraintBottom_toTopOf="@+id/button_start"
         app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.507"
         app:layout_constraintStart_toStartOf="@+id/textView"
         app:srcCompat="@drawable/chart" />
 
