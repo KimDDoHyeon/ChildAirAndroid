@@ -6,30 +6,53 @@
     android:layout_height="match_parent"
     tools:context=".Search">
 
-    <LinearLayout
+   <FrameLayout
+           android:id="@+id/frameLayout2"
+           android:layout_width="match_parent"
+           android:layout_height="60dp"
+           app:layout_constraintBottom_toTopOf="@+id/frameLayout4"
+           app:layout_constraintTop_toTopOf="parent"
+           tools:layout_editor_absoluteX="0dp">
+
+           <TextView
+               android:id="@+id/textView"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_gravity="center"
+               android:text="어린이집 검색" />
+       </FrameLayout>
+
+    <SearchView
+        android:id="@+id/searchview"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_height="70dp"
+        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
+        tools:layout_editor_absoluteX="0dp" />
 
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="자녀가 다니는 어린이집을 검색하세요." />
 
-        <SearchView
-            android:layout_width="match_parent"
-            android:layout_height="66dp">
 
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="vertical">
 
-                <ListView
-                    android:layout_width="match_parent"
-                    android:layout_height="match_parent" />
-            </LinearLayout>
-        </SearchView>
-    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
