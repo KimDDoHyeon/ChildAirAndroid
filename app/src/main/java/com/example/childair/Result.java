@@ -8,9 +8,13 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import java.util.List;
+
 public class Result extends AppCompatActivity {
 
     private TextView tv;
+    private TextView tv1;
+    public List<User> userList ;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -49,10 +53,31 @@ public class Result extends AppCompatActivity {
             }
         });
         tv = findViewById(R.id.tv);
+        tv1=findViewById(R.id.tv1);
 
         Intent intent = getIntent();
         String str = intent.getStringExtra("str");
         tv.setText(str);
+        initLoadDB();
+    }
+    private void initLoadDB() {
+
+        DataAdapter mDbHelper = new DataAdapter(getApplicationContext());
+        mDbHelper.createDatabase();
+        mDbHelper.open();
+
+        // db에 있는 값들을 model을 적용해서 넣는다.
+        userList = mDbHelper.getTableData();
+        TextView tv1 = (TextView) findViewById(R.id.tv1);
+
+
+        mDbHelper.close();
+        tv1.setText(userList.get(100).getDust1());
+
+
+
+        // db 닫기
+
     }
 
 }
