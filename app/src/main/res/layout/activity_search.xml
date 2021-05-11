@@ -1,63 +1,47 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Search">
+    tools:context=".Search"
+    android:orientation="vertical">
 
-   <FrameLayout
-           android:id="@+id/frameLayout2"
-           android:layout_width="match_parent"
-           android:layout_height="60dp"
-           app:layout_constraintBottom_toTopOf="@+id/frameLayout4"
-           app:layout_constraintTop_toTopOf="parent"
-           tools:layout_editor_absoluteX="0dp">
-
-           <TextView
-               android:id="@+id/textView"
-               android:layout_width="wrap_content"
-               android:layout_height="wrap_content"
-               android:layout_gravity="center"
-               android:text="어린이집 검색" />
-       </FrameLayout>
-    <com.google.android.material.textfield.TextInputLayout
-        android:layout_height="wrap_content"
+    <FrameLayout
+        android:id="@+id/frameLayout2"
         android:layout_width="match_parent"
-
-        android:layout_height="match_parent"
-        android:orientation="vertical"/>
+        android:layout_height="60dp"
+        app:layout_constraintBottom_toTopOf="@+id/frameLayout4"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp">
 
         <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="자녀가 다니는 어린이집을 검색하세요." />
-  
-        app:layout_constraintTop_toBottomOf="@+id/frameLayout2"
-        tools:layout_editor_absoluteX="88dp">
+            android:layout_gravity="center"
+            android:text="어린이집 검색" />
+    </FrameLayout>
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:hint="어린이집을 입력하세요" />
+
+        <Button
+            android:id="@+id/Btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:orientation="horizontal">
+            android:text="Button" />
 
-            <EditText
-                android:id="@+id/et"
-                android:layout_width="300dp"
-                android:layout_height="wrap_content"
-                android:hint="어린이집을 입력하세요" />
+    </LinearLayout>
 
-            <Button
-                android:id="@+id/Btn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="Button" />
-
-        </LinearLayout>
-
-    </com.google.android.material.textfield.TextInputLayout>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

@@ -13,33 +13,12 @@
 
 
 =======
-        <activity android:name=".ChildBoard"></activity>
-        <activity android:name=".Dust" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-        </activity>
+        <activity android:name=".ChildBoard" />
+        <activity android:name=".Dust" />
         <activity android:name=".FoodMenu" />
         <activity android:name=".Result" />
-
-        <activity android:name=".Search">
-
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
-
-        <activity android:name=".Calendar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
-
-        </activity>
-
+        <activity android:name=".Search" />
+        <activity android:name=".Calendar" />
 
         <activity android:name=".MainActivity">
 
