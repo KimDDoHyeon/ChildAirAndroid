@@ -20,7 +20,7 @@ class SearchViewHolder extends RecyclerView.ViewHolder{
 
     public SearchViewHolder(@NonNull View itemView) {
         super(itemView);
-        name=(TextView)itemView.findViewById(R.id.name);
+        //name=(TextView)itemView.findViewById(R.id.name);
         time=(TextView)itemView.findViewById(R.id.time);
         temperature=(TextView)itemView.findViewById(R.id.temperature);
         dust1=(TextView)itemView.findViewById(R.id.dust1);
@@ -48,7 +48,7 @@ public class SearchAdapter extends RecyclerView.Adapter<SearchViewHolder> {
 
     @Override
     public void onBindViewHolder(@NonNull SearchViewHolder holder, int position) {
-        holder.name.setText(chids.get(position).getName());
+        //holder.name.setText(chids.get(position).getName());
         holder.time.setText(chids.get(position).getTime());
         holder.temperature.setText(chids.get(position).getTemperature());
         holder.dust1.setText(chids.get(position).getDust1());
