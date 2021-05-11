@@ -19,10 +19,10 @@ public class Search extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_search);
 
-        et = findViewById(R.id.et);
+       // et = findViewById(R.id.et);
 
 
-        Btn=findViewById(R.id.Btn);
+       // Btn=findViewById(R.id.Btn);
         Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
