@@ -16,6 +16,10 @@
         <activity android:name=".Result" />
         <activity android:name=".Calendar" />
         <activity android:name=".MainActivity">
+
+        </activity>
+        <activity android:name=".SpalshScreen"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
