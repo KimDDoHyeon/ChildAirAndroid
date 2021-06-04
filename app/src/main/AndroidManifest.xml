@@ -10,15 +10,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".ChildBoard" />
-        <activity android:name=".Dust" />
-        <activity android:name=".FoodMenu" />
-        <activity android:name=".Result" />
-        <activity android:name=".Calendar" />
-        <activity android:name=".MainActivity">
+        <activity android:name="kidsair.kidsscrip.childair.ChildBoard" />
+        <activity android:name="kidsair.kidsscrip.childair.Dust" />
+        <activity android:name="kidsair.kidsscrip.childair.FoodMenu" />
+        <activity android:name="kidsair.kidsscrip.childair.Result" />
+        <activity android:name="kidsair.kidsscrip.childair.Calendar" />
+        <activity android:name="kidsair.kidsscrip.childair.MainActivity">
 
         </activity>
-        <activity android:name=".SpalshScreen"
+        <activity android:name="kidsair.kidsscrip.childair.SpalshScreen"
             android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

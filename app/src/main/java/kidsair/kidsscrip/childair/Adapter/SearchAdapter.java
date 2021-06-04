@@ -1,4 +1,4 @@
-package com.example.childair.Adapter;
+package kidsair.kidsscrip.childair.Adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,7 +9,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.childair.Model.Chid;
+import kidsair.kidsscrip.childair.Model.Chid;
 import com.example.childair.R;
 
 import java.util.List;

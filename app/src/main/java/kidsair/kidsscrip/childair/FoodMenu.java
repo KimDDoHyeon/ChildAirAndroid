@@ -1,8 +1,10 @@
-package com.example.childair;
+package kidsair.kidsscrip.childair;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.childair.R;
 
 public class FoodMenu extends AppCompatActivity {
 

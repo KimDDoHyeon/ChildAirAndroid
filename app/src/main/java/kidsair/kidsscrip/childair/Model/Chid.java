@@ -1,4 +1,4 @@
-package com.example.childair.Model;
+package kidsair.kidsscrip.childair.Model;
 
 public class Chid {
     public String name, time ;

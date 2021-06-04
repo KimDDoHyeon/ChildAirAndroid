@@ -1,4 +1,4 @@
-package com.example.childair;
+package kidsair.kidsscrip.childair;
 
 import android.app.Activity;
 import android.content.Intent;

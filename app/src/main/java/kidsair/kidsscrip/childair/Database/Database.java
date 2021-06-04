@@ -1,11 +1,11 @@
-package com.example.childair.Database;
+package kidsair.kidsscrip.childair.Database;
 
 import android.content.Context;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteQueryBuilder;
 
-import com.example.childair.Model.Chid;
+import kidsair.kidsscrip.childair.Model.Chid;
 import com.readystatesoftware.sqliteasset.SQLiteAssetHelper;
 
 import java.util.ArrayList;

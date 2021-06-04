@@ -1,4 +1,4 @@
-package com.example.childair;
+package kidsair.kidsscrip.childair;
 
 import android.os.Bundle;
 import android.text.Editable;
@@ -8,8 +8,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.childair.Adapter.SearchAdapter;
-import com.example.childair.Database.Database;
+import kidsair.kidsscrip.childair.Adapter.SearchAdapter;
+import kidsair.kidsscrip.childair.Database.Database;
+
+import com.example.childair.R;
 import com.mancj.materialsearchbar.MaterialSearchBar;
 
 import java.util.ArrayList;

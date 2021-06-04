@@ -1,4 +1,4 @@
-package com.example.childair;
+package kidsair.kidsscrip.childair;
 
 public class User {
     public String name;  // 사용자 id

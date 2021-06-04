@@ -6,7 +6,7 @@
     android:layout_height="match_parent"
     android:background="#8FD39E"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context="kidsair.kidsscrip.childair.MainActivity">
 
 
     <FrameLayout
