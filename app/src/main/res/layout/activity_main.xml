@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FFFFFF"
+    android:background="#8FD39E"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -22,7 +22,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="#FFFFFF"
+            android:alpha="100"
+            android:background="#8FD39E"
             android:text="키즈에어"
             android:textColor="#000000"
             android:textSize="24sp" />
@@ -120,7 +121,8 @@
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginBottom="80dp"
-        android:background="@drawable/support128"
+        android:background="@color/white"
+        android:foreground="@drawable/support128"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCalen" />

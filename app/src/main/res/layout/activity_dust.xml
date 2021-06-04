@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#8FD39E"
     tools:context=".MainActivity">
 
     <com.mancj.materialsearchbar.MaterialSearchBar
@@ -11,28 +12,32 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        app:mt_speechMode="false"
-        app:mt_hint="Search"/>
+        app:mt_hint="Search"
+        app:mt_placeholder="어린이집을 검색하세요"
+        app:mt_speechMode="false" />
+
     <TextView
         android:id="@+id/name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/search_bar"
-        android:textSize="40dp"
         android:layout_centerHorizontal="true"
-        android:text="   " />
+        android:text="   "
+        android:textSize="40dp" />
+
     <TextView
         android:id="@+id/ti"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/name"
-        android:text="               시간                  온도      미세먼지       초미세먼지  " />
+        android:text="               시간                  온도      미세먼지       초미세먼지  "
+        android:textColor="#FFFFFF" />
 
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclear_search"
-        android:layout_below="@+id/ti"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ti" />
 
 </RelativeLayout>
