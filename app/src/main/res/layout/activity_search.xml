@@ -22,7 +22,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:background="#FFFFFF"
-            android:text="키즈에어"
+            android:text="어린이집 검색"
             android:textColor="#000000"
             android:textSize="24sp" />
     </FrameLayout>
@@ -71,6 +71,7 @@
             android:textColor="#000000" />
     </FrameLayout>
 
+<<<<<<< HEAD
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -115,4 +116,6 @@
             android:foreground="@drawable/support128" />
     </RelativeLayout>
 
+=======
+>>>>>>> parent of b359228 (레이아웃작업1-1)
 </LinearLayout>
