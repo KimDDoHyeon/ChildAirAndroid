@@ -58,8 +58,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:background="@drawable/Air128"
-            android:foreground="@drawable/Air128"
+            android:background="@drawable/air128"
+            android:foreground="@drawable/air128"
             tools:srcCompat="@tools:sample/avatars" />
 
         <TextView
@@ -84,7 +84,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="50dp"
-            android:foreground="@drawable/Board128"
+            android:foreground="@drawable/board128"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageButton
@@ -93,7 +93,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="210dp"
             android:layout_marginTop="50dp"
-            android:foreground="@drawable/Calender128"
+            android:foreground="@drawable/calender128"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageButton
@@ -102,7 +102,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="50dp"
             android:layout_marginTop="200dp"
-            android:foreground="@drawable/Food128"
+            android:foreground="@drawable/food128"
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageButton
