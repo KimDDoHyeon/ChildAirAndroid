@@ -84,6 +84,7 @@
         android:layout_marginLeft="40dp"
         android:layout_marginBottom="220dp"
         android:background="@drawable/board128"
+        android:onClick="onBoardToast"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/frameLayout" />
@@ -109,6 +110,7 @@
         android:layout_marginTop="20dp"
         android:layout_marginBottom="80dp"
         android:background="@drawable/food128"
+        android:onClick="onFoodToast"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnBoard" />
@@ -123,6 +125,7 @@
         android:layout_marginBottom="80dp"
         android:background="@color/white"
         android:foreground="@drawable/support128"
+        android:onClick="onServiceToast"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCalen" />

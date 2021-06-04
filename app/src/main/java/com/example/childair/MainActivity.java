@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -34,5 +35,14 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+    }
+    public void onBoardToast(View v){
+        Toast.makeText(this, "게시판 준비 중 입니다.", Toast.LENGTH_LONG).show();
+    }
+    public void onFoodToast(View v){
+        Toast.makeText(this, "식단표 준비 중 입니다.", Toast.LENGTH_SHORT).show();
+    }
+    public void onServiceToast(View v){
+        Toast.makeText(this, "서비스 준비 중 입니다.", Toast.LENGTH_LONG).show();
     }
 }
