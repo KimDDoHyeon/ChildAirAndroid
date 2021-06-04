@@ -12,7 +12,7 @@
         android:theme="@style/Theme.AppCompat.NoActionBar">
         <activity android:name=".Splash">
             <intent-filter>
-                <action android:name=".SplashActivity" />
+                <action android:name=".Splash" />
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
