@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "com.example.childair",
+  "applicationId": "com.kidsair.kidsscrip",
   "variantName": "processReleaseResources",
   "elements": [
     {
