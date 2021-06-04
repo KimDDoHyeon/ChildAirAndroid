@@ -51,7 +51,7 @@
         tools:layout_editor_absoluteX="4dp">
 
         <ImageButton
-            android:id="@+id/imageButton1"
+            android:id="@+id/btnBoard"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
@@ -59,7 +59,7 @@
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageButton
-            android:id="@+id/imageButton2"
+            android:id="@+id/btnCalen"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="50dp"
@@ -67,7 +67,7 @@
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageButton
-            android:id="@+id/imageButton3"
+            android:id="@+id/btnFood"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="200dp"
@@ -75,7 +75,7 @@
             tools:srcCompat="@tools:sample/avatars" />
 
         <ImageButton
-            android:id="@+id/imageButton4"
+            android:id="@+id/btnEtc"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="200dp"

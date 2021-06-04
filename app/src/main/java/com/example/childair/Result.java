@@ -20,10 +20,10 @@ public class Result extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_result);
-        ImageButton imageButton =findViewById(R.id.imageButton1);
-        ImageButton imageButton2 =findViewById(R.id.imageButton2);
-        ImageButton imageButton3 =findViewById(R.id.imageButton3);
-        ImageButton imageButton4 =findViewById(R.id.imageButton4);
+        ImageButton imageButton =findViewById(R.id.btnBoard);
+        ImageButton imageButton2 =findViewById(R.id.btnCalen);
+        ImageButton imageButton3 =findViewById(R.id.btnFood);
+        ImageButton imageButton4 =findViewById(R.id.btnEtc);
 
         imageButton.setOnClickListener(new View.OnClickListener() {
             @Override
